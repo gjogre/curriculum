@@ -13,7 +13,7 @@ body {
   vertical-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-image: url('/images/background.png');
+  background-color: #FFFFFF
   color:#000000;
   text-shadow: 1px 1px 1px #BFBFBF;
   /*font-family: 'PT Serif Caption', serif;*/
