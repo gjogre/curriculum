@@ -32,14 +32,16 @@
       </div>
     </header>
 
-    <div class="centered" ng-controller="MainCtrl">
+    <div class="grayBox" ng-controller="MainCtrl">
       <p><button class="myButton" ng-click="changeView('about')">About me</button>
       <button class="myButton" ng-click="changeView('work')">Work</button>
       <button class="myButton" ng-click="changeView('projects')">Projects</button></p>
     </div>
     <!-- Contents frame-->
     <div class="contents">
+      <br>
       <div ng-view class="animation"></div>
+      
     </div>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
