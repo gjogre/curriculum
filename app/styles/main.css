@@ -1,0 +1,125 @@
+/* gap killer */
+* {
+    padding: 0px;
+    margin: 0px
+}
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 640px;
+  min-width: 320px;
+  vertical-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('/images/background.png');
+  color:#000000;
+  text-shadow: 1px 1px 1px #BFBFBF;
+  /*font-family: 'PT Serif Caption', serif;*/
+}
+
+h1, h2, h3 {
+  text-align: center;
+
+}
+
+article {
+ 
+
+  
+}
+
+header {
+  box-shadow: 
+    inset 4px 0px 0px #BFBFBF, 
+    inset -4px 0px 0px #BFBFBF, 
+    inset 0 100px 0 #FFFFFF, 
+    inset 0 -70px 0 #BFBFBF;
+
+      border-radius: 36px 36px 2px 2px;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 24px;
+      font-weight: bold;
+      background-color: #FFFFF1;
+
+}
+ul {
+  padding-left: 20px;
+}
+.contents {
+    
+    box-shadow: 
+      inset 4px 0px 0px #BFBFBF, 
+      inset -4px  0px 0px #BFBFBF;
+
+    border-radius: 2px 2px 36px 36px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FFFFF1;
+}
+
+.centered {
+  text-align: center;
+
+}
+
+.photoOfMe {
+  background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,.1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(100%,rgba(255,255,255,.1)));
+  background: linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,.1) 100%);
+  padding-top: 20px;
+
+  border-radius: 50em;
+
+  max-width: 150px;
+}
+
+.myButton {
+/*box-shadow: 
+  inset 0px 0px 4px #000000, 
+  inset 0px 0px 0px #4EB1BA, 
+  inset 0px 0px 1px #4EB1BA;*/
+  background: linear-gradient(#BFBFBF, #FFFFFF);
+  /*background-size: 80px 60px;*/
+ height: 75px;
+ width: 75px;
+ border-width: 0px;
+ font-weight: bold;
+ margin-left: auto;
+ margin-right: auto;
+  
+}
+.myButton:hover {
+  background: #53A653;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+.animation.ng-enter, .animation.ng-leave{
+-webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    position: relative;
+    display: block;
+}
+
+
+.animation.ng-enter, .animation.ng-leave.ng-leave-active{
+       opacity: 0;
+    top: -50px;
+    height: 0px;
+}
+
+.animation.ng-leave, .animation.ng-enter.ng-enter-active {
+         opacity: 1;
+    top: 0;
+    height: auto;
+}
+
+
