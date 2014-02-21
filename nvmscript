@@ -1,0 +1,4 @@
+echo '[[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh"' >> ~/.bash_profile
+. ~/.nvm/nvm.sh
+nvm use 0.10.20
+nvm alias default 0.10.20

@@ -25,20 +25,18 @@ h1, h2, h3 {
 }
 
 article {
- 
-
-  
+     box-shadow: 
+      inset 10px 0px 0px #E5E4E2, 
+      inset -10px  0px 0px #E5E4E2;
+      border-radius: 36px 36px 2px 2px;
+          background-color: #FFFFFF;
 }
 
 header {
-
-
-      border-radius: 36px 36px 2px 2px;
       padding-left: 40px;
       padding-right: 40px;
       font-size: 24px;
       font-weight: bold;
-      background-color: #FFFFFF;
 
 }
 ul {
@@ -46,29 +44,18 @@ ul {
 }
 .contents {
     
-    box-shadow: 
-      inset 10px 0px 0px #F2F2F2, 
-      inset -10px  0px 0px #F2F2F2;
-
-    border-radius: 2px 2px 36px 36px;
     padding-left: 40px;
     padding-right: 40px;
-    background-color: #FFFFFD;
 }
 
-.centered {
+.button-area {
   text-align: center;
 
 }
-
-.grayBox {
+.photo-area {
   text-align: center;
-    box-shadow: 
-    inset 10px 0px 0px #F2F2F2, 
-    inset -10px 0px 0px #F2F2F2;
-  border-radius: 36px 36px 2px 2px;
-}
 
+}
 .photoOfMe {
   background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,.1) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(100%,rgba(255,255,255,.1)));
