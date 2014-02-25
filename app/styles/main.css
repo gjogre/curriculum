@@ -25,23 +25,28 @@ h1, h2, h3 {
 }
 
 article {
-     box-shadow: 
-      inset 10px 0px 0px #E5E4E2, 
-      inset -10px  0px 0px #E5E4E2;
-      border-radius: 36px 36px 36px 36px;
           background-color: #FFFFFF;
 }
 
 header {
       padding-left: 40px;
       padding-right: 40px;
-      font-size: 24px;
-      font-weight: bold;
+      font-size: 16px;
+      text-align: left;
+      padding-bottom: 40px;
 
 }
 ul {
   padding-left: 20px;
 }
+
+date {
+font-size: 14px;
+text-align: center;
+
+
+}
+
 .contents {
     
     padding-left: 40px;
@@ -91,8 +96,8 @@ ul {
 }
 
 .animation.ng-enter, .animation.ng-leave{
--webkit-transition:0.5s linear all;
-  transition:0.5s linear all;
+-webkit-transition:0.2s linear all;
+  transition:0.2s linear all;
 }
 
 

@@ -7,7 +7,7 @@
   <link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title></title
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -26,11 +26,8 @@
 
     <!-- Main view -->
 
-    <header>
-      <div style="text-align:right; padding-bottom: 20px;">
-        Ernesto Koskinen
+      <div  ng-include src="'views/header.html'" class = "centered">
       </div>
-    </header>
     <article>
         <div class="button-area" ng-controller="MainCtrl">
           <p><button class="myButton" ng-click="changeView('about')">About me</button>
