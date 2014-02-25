@@ -3,7 +3,7 @@ curriculum
 
 To insert your own information, navigate to app/views/
 
-example of about.html:
+#### H4 example of about.html:
 ```
 <!DOCTYPE html>
   <h2>About me</h2>
